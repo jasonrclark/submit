@@ -17,10 +17,11 @@ jobs:
           bundler-cache: true
 
       - run: |
-          env
           ./update-submissions
           git config --global user.name 'Jason R. Clark'
           git config --global user.email 'jason@jasonrclark.net'
           git add README.md
           git commit -m "Updated submissions"
           git push origin main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
