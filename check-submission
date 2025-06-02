@@ -5,53 +5,47 @@ require 'nokogiri'
 require 'uri'
 require 'json'
 
-SITES = %w(
-  http://strangehorizons.com/submit/fiction-submission-guidelines/
-  https://adamant.moksha.io/publication/lightspeed
-  https://adamant.moksha.io/publication/nightmare/guidelines
-  https://asimovs.com/contact-us/writers-guidelines/
-  https://aurealis.com.au/submissions/
-  https://clarkesworldmagazine.com/submissions/
-  https://everydayfiction.com/submit-story/
-  https://frictionlit.org/about/submit/
-  https://interzone.press/submissions/
-  https://psychopomp.com/fantasy-magazine-guidelines/
-  https://psychopomp.com/novella-guidelines/
-  https://psychopomp.com/the-deadlands-guidelines/
-  https://swamp-pink.charleston.edu/submit/
-  https://worldsofifmagazine.com/submissions
-  https://www.apexbookcompany.com/a/blog/apex-magazine/post/apex-magazine-submissions-guidelines
-  https://www.diabolicalplots.com/guidelines/
-  https://www.neondystopia.com/?p=100042814
-  https://www.sfsite.com/fsf/glines.htm
-)
-
-OTHER_SITES = %w(
-  http://worldswithoutend.com/resources_magazines.asp
-  https://augursociety.org/about-augur/
-  https://dailysciencefiction.com/
-  https://psychopomp.com/deadlands/
-  https://smallwondersmag.com
-  https://thewyrmhole.beehiiv.com
-  https://worldsofifmagazine.com/home
-  https://www.3lobedmag.com/
-  https://www.fusionfragment.com/
-  https://www.juliarios.com/
-  https://www.penumbric.com/about.html
-  https://horrortree.com
-)
-
-# === CONFIG ===
+SITES = [
+  ["Analog", "https://analogsf.com/contact-us/writers-guidelines/"],
+  ["Andromeda Spaceways", "https://andromedaspaceways.com/submissions-manager/"],
+  ["Apex Magazine", "https://www.apexbookcompany.com/a/blog/apex-magazine/post/apex-magazine-submissions-guidelines"],
+  ["Asimov's", "https://asimovs.com/contact-us/writers-guidelines/"],
+  ["Augur", "https://augursociety.org/submissions/"],
+  ["Aurealis", "https://aurealis.com.au/submissions/"],
+  ["Beneath Ceaseless Skies", "https://www.beneath-ceaseless-skies.com/submissions/"],
+  ["Clarkesworld", "https://clarkesworldmagazine.com/submissions/"],
+  ["Daily Science Fiction", "https://dailysciencefiction.com/"],
+  ["Diabolical Plots", "https://www.diabolicalplots.com/guidelines/"],
+  ["Every Day Fiction", "https://everydayfiction.com/submit-story/"],
+  ["F(r)iction", "https://frictionlit.org/about/submit/"],
+  ["Fantasy & Science Fiction", "https://www.sfsite.com/fsf/glines.htm"],
+  ["Fantasy Magazine", "https://psychopomp.com/fantasy-magazine-guidelines/"],
+  ["Fusion Fragment", "https://www.fusionfragment.com/submissions/"],
+  ["Galaxy's Edge", "https://www.galaxysedge.com/submissions/"],
+  ["Interzone", "https://interzone.press/submissions/"],
+  ["Lightspeed", "https://adamant.moksha.io/publication/lightspeed"],
+  ["Neon Dystopia", "https://www.neondystopia.com/?p=100042814"],
+  ["Nightmare", "https://adamant.moksha.io/publication/nightmare/guidelines"],
+  ["Penumbric", "https://www.penumbric.com/subs.html"],
+  ["Psychopomp Novellas", "https://psychopomp.com/novella-guidelines/"],
+  ["Shoreline of Infinity", "https://www.shorelineofinfinity.com/submissions/"],
+  ["Small Wonders", "https://smallwondersmag.com/submissions/"],
+  ["Strange Horizons", "http://strangehorizons.com/submit/fiction-submission-guidelines/"],
+  ["The Deadlands", "https://psychopomp.com/the-deadlands-guidelines/"],
+  ["Three-Lobed Burning Eye", "https://www.3lobedmag.com/submissions.html"],
+  ["Trembling with Fear", "https://horrortree.com/submissions/"],
+  ["Uncanny", "https://www.uncannymagazine.com/submissions/"],
+  ["Weird Tales", "https://www.weirdtales.com/submissions"],
+  ["World of If", "https://worldsofifmagazine.com/submissions"],
+  ["Worlds of If", "https://worldsofifmagazine.com/submissions"],
+  ["Worlds of Possibility", "https://worldsofpossibility.moksha.io/closed"],
+  ["swamp pink", "https://swamp-pink.charleston.edu/submit/"],
+]
 
 GITHUB_TOKEN = ENV['GITHUB_TOKEN']
-
-unless GITHUB_TOKEN && !GITHUB_TOKEN.empty?
-  abort "Please set your GitHub Models API key as GITHUB_TOKEN."
-end
-
 MODEL = "openai/gpt-4.1"
 
-# === FETCH PAGE ===
+abort "Missing GITHUB_TOKEN." unless GITHUB_TOKEN && !GITHUB_TOKEN.empty?
 
 def fetch_url(url)
   uri = URI.parse(url)
@@ -97,8 +91,6 @@ def extract_main_text(html, max_length = 16_000)
   text
 end
 
-# === CALL GITHUB MODELS API ===
-
 def ask_github_models(prompt, api_key, model)
   uri = URI("https://models.github.ai/inference/chat/completions")
   headers = {
@@ -129,13 +121,18 @@ def ask_github_models(prompt, api_key, model)
   end
 end
 
-# Main script starts here
+def output_rows(rows, icon)
+  rows.sort_by {|(title, page, *_)| page }.each do |(title, page, _, reason)|
+    puts "|[#{title}](#{page})|#{icon}|#{reason}|"
+  end
+end
 
+# Main script starts here
 
 results = []
 
-sites = ARGV.empty? ? SITES : ARGV
-sites.each do |page|
+sites = ARGV.empty? ? SITES : ARGV.map { |site| ["", site] }
+sites.each do |(title, page)|
   STDERR.print "."
   raw_content = fetch_url(page)
   page_content = extract_main_text(raw_content)
@@ -153,10 +150,10 @@ sites.each do |page|
 
   answer, reason = response.split("\n").reject { |line| line.nil? || line.empty? }
 
-  results << [page, answer, reason]
+  results << [title, page, answer, reason]
 rescue => e
   STDERR.print "!"
-  result << [page, "ERROR", e.message]
+  result << [title, page, "ERROR", e.message]
 end
 
 puts "# Submission Tracker"
@@ -166,14 +163,9 @@ puts
 puts "|Site|Open?|Why???|"
 puts "|---|---|---|"
 
-by_answer = results.group_by { |(page, answer, reason)| answer }
+by_answer = results.group_by { |(title, page, answer, reason)| answer }
 yup = by_answer["YES"] || []
 nope = by_answer["NO"] || []
 
-yup.sort_by {|(page, *_)| page }.each do |(page, _, reason)|
-  puts "|#{page}|💚|#{reason}|"
-end
-
-nope.sort_by {|(page, *_)| page }.each do |(page, _, reason)|
-  puts "|#{page}|🛑|#{reason}|"
-end
+output_rows(yup, "💚")
+output_rows(nope, "🛑")
