@@ -1,4 +1,4 @@
-#! /usr/bin/env ruby
+hi#! /usr/bin/env ruby
 
 require 'net/http'
 require 'nokogiri'
@@ -36,7 +36,6 @@ SITES = [
   ["Trembling with Fear", "https://horrortree.com/submissions/"],
   ["Uncanny", "https://www.uncannymagazine.com/submissions/"],
   ["Weird Tales", "https://www.weirdtales.com/submissions"],
-  ["World of If", "https://worldsofifmagazine.com/submissions"],
   ["Worlds of If", "https://worldsofifmagazine.com/submissions"],
   ["Worlds of Possibility", "https://worldsofpossibility.moksha.io/closed"],
   ["swamp pink", "https://swamp-pink.charleston.edu/submit/"],
