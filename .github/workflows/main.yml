@@ -3,6 +3,9 @@ name: Update the submissions
 on:
   workflow_dispatch:
 
+permissions:
+  models: read
+
 jobs:
   build:
     runs-on: ubuntu-latest
