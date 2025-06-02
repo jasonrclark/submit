@@ -2,6 +2,8 @@ name: Update the submissions
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * MON"
 
 jobs:
   build:
