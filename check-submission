@@ -123,7 +123,7 @@ end
 
 def output_rows(rows, icon)
   rows.sort_by {|(title, page, *_)| title }.each do |(title, page, _, reason)|
-    puts "|[#{title}](#{page})|#{icon}|#{reason}|"
+    puts "|[#{title}](#{page})|#{icon}|<details>#{reason}</details>|"
   end
 end
 
