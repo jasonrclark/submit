@@ -18,10 +18,12 @@ jobs:
 
       - run: |
           ./update-submissions
+        env:
+          GITHUB_TOKEN: ${{ secrets.TOKEN }}
+
+      - run: |
           git config --global user.name 'Jason R. Clark'
           git config --global user.email 'jason@jasonrclark.net'
           git add README.md
           git commit -m "Updated submissions"
           git push origin main
-        env:
-          GITHUB_TOKEN: ${{ secrets.TOKEN }}
