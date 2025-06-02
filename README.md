@@ -1,1 +1,24 @@
-# submit
+# Submission Tracker
+
+Just a few magazines I'm watching for open submission season
+
+|Site|Open?|Why???|
+|---|---|---|
+|https://asimovs.com/contact-us/writers-guidelines/|💚|The guidelines provide detailed instructions for submitting fiction and do not mention that submissions are closed. They describe both electronic and manual submission processes, indicating that the magazine is currently open for fiction submissions.|
+|https://clarkesworldmagazine.com/submissions/|💚|The page states, "We are currently open for art, non-fiction and short story submissions," and provides detailed fiction submission guidelines and a link to submit stories.|
+|https://everydayfiction.com/submit-story/|💚|The guidelines provide detailed instructions for submitting fiction and do not mention that submissions are closed. They specify that all stories must be submitted through Submittable and discuss response times, indicating that the magazine is currently open for fiction submissions.|
+|https://frictionlit.org/about/submit/|💚|The guidelines state that F(r)iction is accepting short fiction, flash fiction, creative nonfiction, and poetry for their print magazine, with no mention of submissions being closed.|
+|https://interzone.press/submissions/|💚|The page states that Interzone is open to unsolicited submissions of fiction, with no indication that submissions are currently closed.|
+|https://www.neondystopia.com/?p=100042814|💚|The guidelines provide instructions for submitting fiction, including word count, file formats, and payment details, with no mention of being closed to submissions.|
+|https://www.sfsite.com/fsf/glines.htm|💚|The guidelines provide instructions for submitting fiction, including an online submission form, and do not mention that submissions are closed.|
+|http://strangehorizons.com/submit/fiction-submission-guidelines/|🛑|The page clearly states "We are currently closed to submissions." and provides future dates for when submissions will reopen.|
+|https://adamant.moksha.io/publication/lightspeed|🛑|The page clearly states that the magazine is "currently closed to submissions" and all fiction categories are marked as "Currently Closed to Submissions."|
+|https://adamant.moksha.io/publication/nightmare/guidelines|🛑|The guidelines state that they "try to open to submissions for about a week every year" and instruct writers to "check opening dates listed under categories for details," indicating that submissions are not open year-round. There is no specific announcement on this page that fiction submissions are currently open, and it notes that if a submission type is grayed out in their system, it is closed. Therefore, based on the current content, Nightmare is not currently open for fiction submissions.|
+|https://aurealis.com.au/submissions/|🛑|Currently, Aurealis is only open for fiction submissions from Australian and New Zealand writers (1 March–30 September) and from subscribers in February. Submissions from anyone anywhere are not open until March 2026.|
+|https://psychopomp.com/fantasy-magazine-guidelines/|🛑|The page states "We are currently closed to submissions" at the top, indicating that the magazine is not open for fiction submissions at this time.|
+|https://psychopomp.com/novella-guidelines/|🛑|The magazine is currently CLOSED for fiction submissions, as explicitly stated in the guidelines and reiterated in the "How to Submit" section.|
+|https://psychopomp.com/the-deadlands-guidelines/|🛑|The magazine is not currently open for fiction submissions. According to the month-by-month breakdown, fiction submissions are only open in April, May, June (for guest issues), August, September, November, and December. The guideline does not specify the current month, but unless it is one of those months, fiction is closed. The schedule also indicates that fiction is closed in January, February, March, July, and October. Please check the current month to confirm, but based on the provided schedule, fiction is not always open.|
+|https://swamp-pink.charleston.edu/submit/|🛑|The magazine only accepts general submissions of fiction from September 1st to December 31st and February 1st to May 31st. If it is currently outside those windows, submissions are closed.|
+|https://worldsofifmagazine.com/submissions|🛑|Submissions are currently by invitation only, so the magazine is not open for general fiction submissions.|
+|https://www.apexbookcompany.com/a/blog/apex-magazine/post/apex-magazine-submissions-guidelines|🛑|Apex Magazine is currently closed to short fiction submissions and will remain closed until current submissions are cleared and they assess their needs for 2025.|
+|https://www.diabolicalplots.com/guidelines/|🛑|Reason: The page states that submissions will be open from July 7-21, 2025. Since it is not currently within those dates, the magazine is not open for fiction submissions at this time.|

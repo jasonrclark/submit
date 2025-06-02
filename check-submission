@@ -1,0 +1,179 @@
+#! /usr/bin/env ruby
+
+require 'net/http'
+require 'nokogiri'
+require 'uri'
+require 'json'
+
+SITES = %w(
+  http://strangehorizons.com/submit/fiction-submission-guidelines/
+  https://adamant.moksha.io/publication/lightspeed
+  https://adamant.moksha.io/publication/nightmare/guidelines
+  https://asimovs.com/contact-us/writers-guidelines/
+  https://aurealis.com.au/submissions/
+  https://clarkesworldmagazine.com/submissions/
+  https://everydayfiction.com/submit-story/
+  https://frictionlit.org/about/submit/
+  https://interzone.press/submissions/
+  https://psychopomp.com/fantasy-magazine-guidelines/
+  https://psychopomp.com/novella-guidelines/
+  https://psychopomp.com/the-deadlands-guidelines/
+  https://swamp-pink.charleston.edu/submit/
+  https://worldsofifmagazine.com/submissions
+  https://www.apexbookcompany.com/a/blog/apex-magazine/post/apex-magazine-submissions-guidelines
+  https://www.diabolicalplots.com/guidelines/
+  https://www.neondystopia.com/?p=100042814
+  https://www.sfsite.com/fsf/glines.htm
+)
+
+OTHER_SITES = %w(
+  http://worldswithoutend.com/resources_magazines.asp
+  https://augursociety.org/about-augur/
+  https://dailysciencefiction.com/
+  https://psychopomp.com/deadlands/
+  https://smallwondersmag.com
+  https://thewyrmhole.beehiiv.com
+  https://worldsofifmagazine.com/home
+  https://www.3lobedmag.com/
+  https://www.fusionfragment.com/
+  https://www.juliarios.com/
+  https://www.penumbric.com/about.html
+  https://horrortree.com
+)
+
+# === CONFIG ===
+
+GITHUB_TOKEN = ENV['GITHUB_TOKEN']
+
+unless GITHUB_TOKEN && !GITHUB_TOKEN.empty?
+  abort "Please set your GitHub Models API key as GITHUB_TOKEN."
+end
+
+MODEL = "openai/gpt-4.1"
+
+# === FETCH PAGE ===
+
+def fetch_url(url)
+  uri = URI.parse(url)
+  Net::HTTP.start(uri.host, uri.port, use_ssl: uri.scheme == 'https') do |http|
+    req = Net::HTTP::Get.new(uri)
+    response = http.request(req)
+    if response.is_a?(Net::HTTPRedirection)
+      location = response['location']
+      return fetch_url(location)
+    elsif !response.is_a?(Net::HTTPSuccess)
+      raise "Failed to fetch #{url}: #{response.code}"
+    end
+    response.body
+  end
+end
+
+def extract_main_text(html, max_length = 16_000)
+  doc = Nokogiri::HTML(html)
+
+  # Try to find 'main' first, then 'article', then the largest section/div
+  main_node = doc.at('main') || doc.at('article')
+  unless main_node
+    # Heuristic: Find the <div> or <section> with the most <p> tags
+    candidates = doc.css('div, section')
+    main_node = candidates.max_by { |c| c.css('p').size }
+  end
+  main_node ||= doc.at('body') # fallback
+
+  # Remove navigation, header, footer, aside and scripts/styles
+  main_node.search('header, nav, footer, aside, script, style, noscript').remove
+
+  # Get the visible text, squeeze spaces, strip, and join paragraphs.
+  text = main_node.css('p, h1, h2, h3, li').map(&:text).join("\n").gsub(/\s+/, ' ').strip
+
+  # Truncate to max_length, ideally at a sentence boundary.
+  if text.length > max_length
+    # Cut at the last period before the limit, if found, else hard cut
+    idx = text.rindex('.', max_length) || max_length
+    text = text[0, idx].strip
+    text << "..." if text.length >= max_length
+  end
+
+  text
+end
+
+# === CALL GITHUB MODELS API ===
+
+def ask_github_models(prompt, api_key, model)
+  uri = URI("https://models.github.ai/inference/chat/completions")
+  headers = {
+    "Authorization" => "Bearer #{api_key}",
+    "Content-Type" => "application/json",
+    "User-Agent" => "ruby-openai-check"
+  }
+  body = {
+    "model" => model,
+    "messages" => [
+      {"role" => "system", "content" => "You are an assistant that summarizes submission status for literary magazines."},
+      {"role" => "user", "content" => prompt}
+    ],
+    "max_tokens" => 256,
+    "temperature" => 0.1
+  }.to_json
+
+  Net::HTTP.start(uri.host, uri.port, use_ssl: true) do |http|
+    req = Net::HTTP::Post.new(uri, headers)
+    req.body = body
+    res = http.request(req)
+    unless res.is_a?(Net::HTTPSuccess)
+      abort "API Error: #{res.code} #{res.body}"
+    end
+    response_json = JSON.parse(res.body)
+    # Look for OpenAI-style completion
+    response_json.dig("choices", 0, "message", "content") || "(No response)"
+  end
+end
+
+# Main script starts here
+
+
+results = []
+
+sites = ARGV.empty? ? SITES : ARGV
+sites.each do |page|
+  STDERR.print "."
+  raw_content = fetch_url(page)
+  page_content = extract_main_text(raw_content)
+
+  prompt = <<~PROMPT
+    This is the submission guideline page for a magazine.
+    Based on its current content, is the magazine currently OPEN for fiction submissions?
+    Only answer "YES" or "NO" then after a newline provide a brief reason.
+    Here is the page content:
+
+    #{page_content}
+  PROMPT
+
+  response = ask_github_models(prompt, GITHUB_TOKEN, MODEL)
+
+  answer, reason = response.split("\n").reject { |line| line.nil? || line.empty? }
+
+  results << [page, answer, reason]
+rescue => e
+  STDERR.print "!"
+  result << [page, "ERROR", e.message]
+end
+
+puts "# Submission Tracker"
+puts
+puts "Just a few magazines I'm watching for open submission season"
+puts
+puts "|Site|Open?|Why???|"
+puts "|---|---|---|"
+
+by_answer = results.group_by { |(page, answer, reason)| answer }
+yup = by_answer["YES"] || []
+nope = by_answer["NO"] || []
+
+yup.sort_by {|(page, *_)| page }.each do |(page, _, reason)|
+  puts "|#{page}|💚|#{reason}|"
+end
+
+nope.sort_by {|(page, *_)| page }.each do |(page, _, reason)|
+  puts "|#{page}|🛑|#{reason}|"
+end
