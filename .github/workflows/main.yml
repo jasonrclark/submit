@@ -16,8 +16,9 @@ jobs:
           ruby-version: '3.4'
           bundler-cache: true
 
-      - run: ./update-submissions
       - run: |
+          env
+          ./update-submissions
           git config --global user.name 'Jason R. Clark'
           git config --global user.email 'jason@jasonrclark.net'
           git add README.md
