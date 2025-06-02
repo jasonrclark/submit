@@ -122,7 +122,7 @@ def ask_github_models(prompt, api_key, model)
 end
 
 def output_rows(rows, icon)
-  rows.sort_by {|(title, page, *_)| page }.each do |(title, page, _, reason)|
+  rows.sort_by {|(title, page, *_)| title }.each do |(title, page, _, reason)|
     puts "|[#{title}](#{page})|#{icon}|#{reason}|"
   end
 end
