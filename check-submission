@@ -6,39 +6,176 @@ require 'uri'
 require 'json'
 
 SITES = [
-  ["Analog", "https://analogsf.com/contact-us/writers-guidelines/"],
-  ["Andromeda Spaceways", "https://andromedaspaceways.com/submissions-manager/"],
-  ["Apex Magazine", "https://www.apexbookcompany.com/a/blog/apex-magazine/post/apex-magazine-submissions-guidelines"],
-  ["Asimov's", "https://asimovs.com/contact-us/writers-guidelines/"],
-  ["Augur", "https://augursociety.org/submissions/"],
-  ["Aurealis", "https://aurealis.com.au/submissions/"],
-  ["Beneath Ceaseless Skies", "https://www.beneath-ceaseless-skies.com/submissions/"],
-  ["Clarkesworld", "https://clarkesworldmagazine.com/submissions/"],
-  ["Daily Science Fiction", "https://dailysciencefiction.com/"],
-  ["Diabolical Plots", "https://www.diabolicalplots.com/guidelines/"],
-  ["Every Day Fiction", "https://everydayfiction.com/submit-story/"],
-  ["F(r)iction", "https://frictionlit.org/about/submit/"],
-  ["Fantasy & Science Fiction", "https://www.sfsite.com/fsf/glines.htm"],
-  ["Fantasy Magazine", "https://psychopomp.com/fantasy-magazine-guidelines/"],
-  ["Fusion Fragment", "https://www.fusionfragment.com/submissions/"],
-  ["Galaxy's Edge", "https://www.galaxysedge.com/submissions/"],
-  ["Interzone", "https://interzone.press/submissions/"],
-  ["Lightspeed", "https://adamant.moksha.io/publication/lightspeed"],
-  ["Neon Dystopia", "https://www.neondystopia.com/?p=100042814"],
-  ["Nightmare", "https://adamant.moksha.io/publication/nightmare/guidelines"],
-  ["Penumbric", "https://www.penumbric.com/subs.html"],
-  ["Psychopomp Novellas", "https://psychopomp.com/novella-guidelines/"],
-  ["Shoreline of Infinity", "https://www.shorelineofinfinity.com/submissions/"],
-  ["Small Wonders", "https://smallwondersmag.com/submissions/"],
-  ["Strange Horizons", "http://strangehorizons.com/submit/fiction-submission-guidelines/"],
-  ["The Deadlands", "https://psychopomp.com/the-deadlands-guidelines/"],
-  ["Three-Lobed Burning Eye", "https://www.3lobedmag.com/submissions.html"],
-  ["Trembling with Fear", "https://horrortree.com/submissions/"],
-  ["Uncanny", "https://www.uncannymagazine.com/submissions/"],
-  ["Weird Tales", "https://www.weirdtales.com/submissions"],
-  ["Worlds of If", "https://worldsofifmagazine.com/submissions"],
-  ["Worlds of Possibility", "https://worldsofpossibility.moksha.io/closed"],
-  ["swamp pink", "https://swamp-pink.charleston.edu/submit/"],
+  [
+    "Analog",
+    "https://analogsf.com/contact-us/writers-guidelines/",
+    "sf"
+  ],
+  [
+    "Andromeda Spaceways",
+    "https://andromedaspaceways.com/submissions-manager/",
+    "sf, fantasy, horror"
+  ],
+  [
+    "Apex Magazine",
+    "https://www.apexbookcompany.com/a/blog/apex-magazine/post/apex-magazine-submissions-guidelines",
+    "sf, fantasy, horror, flash 💚?"
+  ],
+  [
+    "Asimov's",
+    "https://asimovs.com/contact-us/writers-guidelines/",
+    "sf"
+  ],
+  [
+    "Augur",
+    "https://augursociety.org/submissions/",
+    "sf, fantasy"
+  ],
+  [
+    "Tales & Feathers",
+    "https://augursociety.org/submissions/",
+    "fantasy, cozy"
+  ],
+  [
+    "Aurealis",
+    "https://aurealis.com.au/submissions/",
+    "sf, austrailan"
+  ],
+  [
+    "Beneath Ceaseless Skies",
+    "https://www.beneath-ceaseless-skies.com/submissions/",
+    "fantasy"
+  ],
+  [
+    "Clarkesworld",
+    "https://clarkesworldmagazine.com/submissions/",
+    "sf, fantasy"
+  ],
+  [
+    "Daily Science Fiction",
+    "https://dailysciencefiction.com/",
+    "flash"
+  ],
+  [
+    "Diabolical Plots",
+    "https://www.diabolicalplots.com/guidelines/",
+    "sf, fantasy"
+  ],
+  [
+    "Every Day Fiction",
+    "https://everydayfiction.com/submit-story/",
+    "flash"
+  ],
+  [
+    "F(r)iction",
+    "https://frictionlit.org/about/submit/",
+    "weird, flash, $read"
+  ],
+  [
+    "Fantasy & Science Fiction",
+    "https://www.sfsite.com/fsf/glines.htm",
+    "sf, fantasy"
+  ],
+  [
+    "Fantasy Magazine",
+    "https://psychopomp.com/fantasy-magazine-guidelines/",
+    "fantasy"
+  ],
+  [
+    "Fusion Fragment",
+    "https://www.fusionfragment.com/submissions/",
+    "sf"
+  ],
+  [
+    "Galaxy's Edge",
+    "https://www.galaxysedge.com/submissions/",
+    "sf"
+  ],
+  [
+    "Interzone",
+    "https://interzone.press/submissions/",
+    "sf"
+  ],
+  [
+    "Lightspeed",
+    "https://adamant.moksha.io/publication/lightspeed",
+    "sf, fantasy"
+  ],
+  [
+    "Neon Dystopia",
+    "https://www.neondystopia.com/?p=100042814",
+    "sf, cyberpunk"
+  ],
+  [
+    "Nightmare",
+    "https://adamant.moksha.io/publication/nightmare/guidelines",
+    "horror"
+  ],
+  [
+    "Penumbric",
+    "https://www.penumbric.com/subs.html",
+    "sf, fantasy, horror, edgy"
+  ],
+  [
+    "Psychopomp Novellas",
+    "https://psychopomp.com/novella-guidelines/",
+    "novellas"
+  ],
+  [
+    "Shoreline of Infinity",
+    "https://www.shorelineofinfinity.com/submissions/",
+    "sf"
+  ],
+  [
+    "Small Wonders",
+    "https://smallwondersmag.com/submissions/",
+    "flash"
+  ],
+  [
+    "Strange Horizons",
+    "http://strangehorizons.com/submit/fiction-submission-guidelines/",
+    "sf, fantasy"
+  ],
+  [
+    "The Deadlands",
+    "https://psychopomp.com/the-deadlands-guidelines/",
+    "sf, fantasy, horror, anthology"
+  ],
+  [
+    "Three-Lobed Burning Eye",
+    "https://www.3lobedmag.com/submissions.html",
+    "sf, dark fantasy, horror"
+  ],
+  [
+    "Trembling with Fear",
+    "https://horrortree.com/submissions/",
+    "horror"
+  ],
+  [
+    "Uncanny",
+    "https://www.uncannymagazine.com/submissions/",
+    "sf"
+  ],
+  [
+    "Weird Tales",
+    "https://www.weirdtales.com/submissions",
+    "sf"
+  ],
+  [
+    "Worlds of If",
+    "https://worldsofifmagazine.com/submissions",
+    "sf"
+  ],
+  [
+    "Worlds of Possibility",
+    "https://worldsofpossibility.moksha.io/closed",
+    "sf, fantasy"
+  ],
+  [
+    "swamp pink",
+    "https://swamp-pink.charleston.edu/submit/",
+    "sf"
+  ],
 ]
 
 GITHUB_TOKEN = ENV['GITHUB_TOKEN']
@@ -121,9 +258,11 @@ def ask_github_models(prompt, api_key, model)
 end
 
 def output_rows(rows, icon)
-  rows.sort_by {|(title, page, *_)| title }.each do |(title, page, _, reason)|
-    puts "|[#{title}](#{page})|#{icon}|<details>#{reason}</details>|"
-  end
+  rows
+    .sort_by {|(title, page, *_)| title }
+    .each do |(title, page, _, reason, tags)|
+      puts "|[#{title}](#{page})|#{icon}|#{tags}|<details>#{reason}</details>|"
+    end
 end
 
 # Main script starts here
@@ -131,7 +270,7 @@ end
 results = []
 
 sites = ARGV.empty? ? SITES : ARGV.map { |site| ["", site] }
-sites.each do |(title, page)|
+sites.each do |(title, page, tags)|
   STDERR.print "."
   raw_content = fetch_url(page)
   page_content = extract_main_text(raw_content)
@@ -149,18 +288,18 @@ sites.each do |(title, page)|
 
   answer, reason = response.split("\n").reject { |line| line.nil? || line.empty? }
 
-  results << [title, page, answer, reason]
+  results << [title, page, answer, reason, tags]
 rescue => e
   STDERR.print "!"
-  result << [title, page, "ERROR", e.message]
+  result << [title, page, "ERROR", e.message, ""]
 end
 
 puts "# Submission Tracker"
 puts
 puts "Just a few magazines I'm watching for open submission season"
 puts
-puts "|Site|Open?|Why???|"
-puts "|---|---|---|"
+puts "|Site|Open?|Tag Along!|Why???|"
+puts "|---|---|---|---|"
 
 by_answer = results.group_by { |(title, page, answer, reason)| answer }
 yup = by_answer["YES"] || []
