@@ -7,9 +7,19 @@ require 'json'
 
 SITES = [
   [
+    "7th-Circle Pyrite",
+    "https://www.7thcirclepyrite.com/submissions",
+    "fantasy, mystical, <2500, ¢"
+  ],
+  [
+    "After the Storm",
+    "https://medium.com/after-the-storm/submission-guide-for-after-the-storm-472ac07eb0e7",
+    "sci-fi, fantasy, anti-capitalist, 1000-5000, $"
+  ],
+  [
     "Analog",
     "https://analogsf.com/contact-us/writers-guidelines/",
-    "sf"
+    "sf, $$$"
   ],
   [
     "Andromeda Spaceways",
@@ -24,7 +34,7 @@ SITES = [
   [
     "Asimov's",
     "https://asimovs.com/contact-us/writers-guidelines/",
-    "sf"
+    "sf, $$$"
   ],
   [
     "Augur",
@@ -49,7 +59,7 @@ SITES = [
   [
     "Clarkesworld",
     "https://clarkesworldmagazine.com/submissions/",
-    "sf, fantasy"
+    "sf, fantasy, $$$"
   ],
   [
     "Daily Science Fiction",
@@ -74,7 +84,7 @@ SITES = [
   [
     "Fantasy & Science Fiction",
     "https://www.sfsite.com/fsf/glines.htm",
-    "sf, fantasy"
+    "sf, fantasy, $$$"
   ],
   [
     "Fantasy Magazine",
@@ -94,12 +104,12 @@ SITES = [
   [
     "Interzone",
     "https://interzone.press/submissions/",
-    "sf"
+    "sf, $$"
   ],
   [
     "Lightspeed",
     "https://adamant.moksha.io/publication/lightspeed",
-    "sf, fantasy"
+    "sf, fantasy, $$$"
   ],
   [
     "Neon Dystopia",
@@ -109,7 +119,7 @@ SITES = [
   [
     "Nightmare",
     "https://adamant.moksha.io/publication/nightmare/guidelines",
-    "horror"
+    "horror, $$$"
   ],
   [
     "Penumbric",
@@ -134,7 +144,7 @@ SITES = [
   [
     "Strange Horizons",
     "http://strangehorizons.com/submit/fiction-submission-guidelines/",
-    "sf, fantasy"
+    "sf, fantasy, $$$"
   ],
   [
     "The Deadlands",
@@ -144,7 +154,7 @@ SITES = [
   [
     "Three-Lobed Burning Eye",
     "https://www.3lobedmag.com/submissions.html",
-    "sf, dark fantasy, horror"
+    "sf, dark fantasy, horror, $$$"
   ],
   [
     "Trembling with Fear",
