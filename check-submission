@@ -47,9 +47,14 @@ SITES = [
     "sf, fantasy, horror"
   ],
   [
+    "AntipodeanSF",
+    "https://www.antisf.com.au/submission-guidelines",
+    "flash, sf, fantasy, austrailian, twists, <1000"
+  ],
+  [
     "Apex Magazine",
     "https://www.apexbookcompany.com/a/blog/apex-magazine/post/apex-magazine-submissions-guidelines",
-    "sf, fantasy, horror, flash 💚?"
+    "flash 💚?, sf, fantasy, horror"
   ],
   [
     "Asimov's",
@@ -99,7 +104,7 @@ SITES = [
   [
     "F(r)iction",
     "https://frictionlit.org/about/submit/",
-    "weird, flash, $, fee"
+    "flash, weird, $, fee"
   ],
   [
     "Fantasy & Science Fiction",
