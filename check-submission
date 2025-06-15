@@ -99,7 +99,7 @@ SITES = [
   [
     "F(r)iction",
     "https://frictionlit.org/about/submit/",
-    "weird, flash, $read"
+    "weird, flash, $, fee"
   ],
   [
     "Fantasy & Science Fiction",
@@ -321,7 +321,7 @@ sites.each do |(title, page, tags)|
   results << [title, page, answer, reason, tags]
 rescue => e
   STDERR.print "!"
-  result << [title, page, "ERROR", e.message, ""]
+  results << [title, page, "ERROR", e.message, ""]
 end
 
 puts "# Submission Tracker"
