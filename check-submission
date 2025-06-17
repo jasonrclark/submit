@@ -57,14 +57,29 @@ SITES = [
     "flash 💚?, sf, fantasy, horror"
   ],
   [
+    "Arcturus"
+    "https://arcturusmag.com/submit/",
+    "flash, sf, fantasy, <5000, ¢"
+  ],
+  [
     "Asimov's",
     "https://asimovs.com/contact-us/writers-guidelines/",
     "sf, $$$"
   ],
   [
+    "Asimov Press",
+    "https://press.asimov.com/about",
+    "sf, science focus, $$$"
+  ],
+  [
     "Augur",
     "https://augursociety.org/submissions/",
     "sf, fantasy"
+  ],
+  [
+    "Baffling Magazine",
+    "https://www.bafflingmag.com/submissions",
+    "sf, fantasy, <1200, queer, $$$"
   ],
   [
     "Tales & Feathers",
