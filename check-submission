@@ -49,7 +49,7 @@ SITES = [
   [
     "AntipodeanSF",
     "https://www.antisf.com.au/submission-guidelines",
-    "flash, sf, fantasy, austrailian, twists, <1000"
+    "flash, sf, fantasy, australian, twists, <1000"
   ],
   [
     "Apex Magazine",
@@ -89,7 +89,7 @@ SITES = [
   [
     "Aurealis",
     "https://aurealis.com.au/submissions/",
-    "sf, austrailan"
+    "sf, australian"
   ],
   [
     "Beneath Ceaseless Skies",
