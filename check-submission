@@ -117,6 +117,21 @@ SITES = [
     "sf, fantasy, $",
   ],
   [
+    "Black Hare Press",
+    "https://www.blackharepress.com/submissions",
+    "sf, fantasy, dark, <2000, $"
+  ],
+  [
+    "Blue Earth Review",
+    "https://blueearthreview.submittable.com/submit",
+    "sf, fantasy, <4000, ¢"
+  ],
+  [
+    "Bottleneck",
+    "https://www.bottleneck-sf.com/submission-guidelines",
+    "sf, fantasy, 3000-8000, ¢"
+  ],
+  [
     "Clarkesworld",
     "https://clarkesworldmagazine.com/submissions/",
     "sf, fantasy, $$$"
