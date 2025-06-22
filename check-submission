@@ -97,6 +97,26 @@ SITES = [
     "fantasy"
   ],
   [
+    "Bewildering Stories",
+    "https://www.bewilderingstories.com/submissions.html",
+    "sf, fantasy, flash, ¢"
+  ],
+  [
+    "BFS Horizons",
+    "https://britishfantasysociety.org/get-in-touch/bfs-horizons/",
+    "fantasy, horror, <5000, $"
+  ],
+  [
+    "The Bizarchives",
+    "https://thebizarchives.com/submissions/",
+    "sf, fantasy, weird, dark, ¢",
+  ],
+  [
+    "Black Cat Weekly",
+    "https://wildside.moksha.io/publication/black-cat-weekly-science-fiction/guidelines",
+    "sf, fantasy, $",
+  ],
+  [
     "Clarkesworld",
     "https://clarkesworldmagazine.com/submissions/",
     "sf, fantasy, $$$"
