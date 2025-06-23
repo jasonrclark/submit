@@ -354,7 +354,7 @@ def ask_github_models(prompt, api_key, model)
     req.body = body
     res = http.request(req)
     unless res.is_a?(Net::HTTPSuccess)
-      abort "API Error: #{res.code} #{res.body}"
+      throw "API Error: #{res.code} #{res.body}"
     end
     response_json = JSON.parse(res.body)
     # Look for OpenAI-style completion
@@ -409,6 +409,8 @@ puts "|---|---|---|---|"
 by_answer = results.group_by { |(title, page, answer, reason)| answer }
 yup = by_answer["YES"] || []
 nope = by_answer["NO"] || []
+errors = by_answer["ERROR"] || []
 
 output_rows(yup, "💚")
 output_rows(nope, "🛑")
+output_rows(nope, "💥")
