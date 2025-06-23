@@ -132,6 +132,26 @@ SITES = [
     "sf, fantasy, 3000-8000, ¢"
   ],
   [
+    "The Canadian Sepulchral",
+    "https://joewiwcharuk.wixsite.com/the-canadian-sepulch/submissions",
+    "horror, canadian, 1000-5000, ¢"
+  ],
+  [
+    "Carnage House",
+    "https://carnagehouse.com/submission/subs.php",
+    "horror, 500-5500, $"
+  ],
+  [
+    "The Colored Lens",
+    "https://thecoloredlens.com/?page_id=137752",
+    "sf, fantasy, 500-5000, $"
+  ],
+  [
+    "CommuterLit",
+    "https://commuterlit.com/for-writers/submission-guidelines/",
+    "sf, fantasy, 500-4000, ¢"
+  ],
+  [
     "Clarkesworld",
     "https://clarkesworldmagazine.com/submissions/",
     "sf, fantasy, $$$"
