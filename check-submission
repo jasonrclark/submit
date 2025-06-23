@@ -413,4 +413,4 @@ errors = by_answer["ERROR"] || []
 
 output_rows(yup, "💚")
 output_rows(nope, "🛑")
-output_rows(nope, "💥")
+output_rows(errors, "💥")
