@@ -118,7 +118,7 @@ SITES = [
   ],
   [
     "Black Hare Press",
-    "https://www.blackharepress.com/submissions",
+    "https://blackharepress.com/blogs/open-calls",
     "sf, fantasy, dark, <2000, $"
   ],
   [
@@ -289,7 +289,7 @@ SITES = [
   ],
   [
     "Haven Speculative",
-    "https://www.havenspec.com/submit",
+    "https://www.havenspec.com/submit/",
     "sf, fantasy, <6000, $$"
   ],
   [
@@ -480,7 +480,7 @@ end
 
 results = []
 
-sites = ARGV.empty? ? SITES : ARGV.map { |site| ["", site] }
+sites = ARGV.empty? ? SITES : ARGV.map { |site| ["", site, ""] }
 sites.each do |(title, page, tags)|
   STDERR.print "."
   raw_content = fetch_url(page)
