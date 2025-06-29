@@ -157,6 +157,36 @@ SITES = [
     "sf, fantasy, $$$"
   ],
   [
+    "Corner Bar Magazine",
+    "http://www.cornerbarmagazine.com/how.html",
+    "sf, ¢"
+  ],
+  [
+    "Creation Magazine",
+    "https://sites.google.com/creationmag.org/creationmag/submit",
+    "sf, fantasy, horror, <5000, ¢"
+  ],
+  [
+    "Crepuscular Magazine",
+    "https://www.patreon.com/posts/submission-85137677",
+    "sf, fantasy, horror <250, ¢"
+  ],
+  [
+    "Crow & Cross Keys",
+    "https://crowcrosskeys.com/submit/",
+    "sf, fantasy, folk, flash, <5000, ¢"
+  ],
+  [
+    "The Daily Tomorrow",
+    "https://www.thedailytomorrow.com/submissions",
+    "sf, 2100-3500, serial, ¢"
+  ],
+  [
+    "Del Sol Review",
+    "https://delsolreview.webdelsol.com/guidelines.htm",
+    "sf, fantasy, 300-5000, ¢"
+  ],
+  [
     "Daily Science Fiction",
     "https://dailysciencefiction.com/",
     "flash"
@@ -165,6 +195,21 @@ SITES = [
     "Diabolical Plots",
     "https://www.diabolicalplots.com/guidelines/",
     "sf, fantasy"
+  ],
+  [
+    "Ecological Citizen",
+    "https://ecologicalcitizen.net/submitting-fiction.html",
+    "sf, eco, <2000, ¢"
+  ],
+  [
+    "Eldritch Science",
+    "https://tnfff.org/submissions/",
+    "sf, ¢"
+  ],
+  [
+    "Electric Spec",
+    "https://www.electricspec.com/Submissions.html",
+    "sf, fantasy, horror, <7000, $"
   ],
   [
     "Every Day Fiction",
@@ -177,6 +222,11 @@ SITES = [
     "flash, weird, $, fee"
   ],
   [
+    "Factor Four Magazine",
+    "https://factorfourmag.com/submissionsinfo/",
+    "sf, fantasy, horror, flash, $$"
+  ],
+  [
     "Fantasy & Science Fiction",
     "https://www.sfsite.com/fsf/glines.htm",
     "sf, fantasy, $$$"
@@ -187,14 +237,70 @@ SITES = [
     "fantasy"
   ],
   [
+    "Farthest Star Publishing",
+    "https://www.fartheststarpublishing.com/general-8",
+    "sf, fantasy, novelette, 8000-17000, $"
+  ],
+  [
+    "Five on the Fifth",
+    "https://fiveonthefifth.submittable.com/submit",
+    "horror, flash, ¢"
+  ],
+  [
+    "Flash Point Science Fiction",
+    "https://flashpointsf.com/submissions/",
+    "sf, fantasy, <1000, $"
+  ],
+  [
+    "Free Flash Fiction",
+    "https://freeflashfiction.com/submissions/",
+    "sf, fantasy, horror, flash, <500, ¢"
+  ],
+  [
+    "Freedom Fiction Journal",
+    "https://www.freedomfiction.com/submissions/",
+    "sf, fantasy, flash <500, 1000-12000, ¢"
+
+  ],
+  [
     "Fusion Fragment",
     "https://www.fusionfragment.com/submissions/",
-    "sf"
+    "sf, $"
+  ],
+  [
+    "The Future Fire",
+    "https://futurefire.net/guidelines/fiction.html",
+    "sf, social, flash <1000, <17000, $"
   ],
   [
     "Galaxy's Edge",
     "https://www.galaxysedge.com/submissions/",
     "sf"
+  ],
+  [
+    "The Genre Society",
+    "https://www.thegenresociety.com/submissions",
+    "sf, fantasy, horror, ¢"
+  ],
+  [
+    "Harvey Duckman",
+    "https://harvey-duckman-is-alive.ghost.io/submissions/",
+    "sf, fantasy, $"
+  ],
+  [
+    "Haven Speculative",
+    "https://www.havenspec.com/submit",
+    "sf, fantasy, <6000, $$"
+  ],
+  [
+    "Havok",
+    "https://gohavok.com/submission-guidelines/",
+    "sf, fantasy, themed, flash, 300-1000, ¢"
+  ],
+  [
+    "Hawthorn & Ash",
+    "https://ironfaeriepublishing.com/hawthorn-ash/",
+    "fantasy, horror, flash <1000, $"
   ],
   [
     "Interzone",
