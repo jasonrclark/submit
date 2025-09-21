@@ -64,7 +64,7 @@ SITES = [
   [
     "Asimov's",
     "https://asimovs.com/contact-us/writers-guidelines/",
-    "sf, $$$"
+    "sf, 1000-20k, $$$"
   ],
   [
     "Asimov Press",
@@ -154,7 +154,7 @@ SITES = [
   [
     "Clarkesworld",
     "https://clarkesworldmagazine.com/submissions/",
-    "sf, fantasy, $$$"
+    "sf, fantasy, 1000-22000, $$$"
   ],
   [
     "Corner Bar Magazine",
@@ -229,12 +229,12 @@ SITES = [
   [
     "Fantasy & Science Fiction",
     "https://www.sfsite.com/fsf/glines.htm",
-    "sf, fantasy, $$$"
+    "sf, fantasy, <25k, $$$"
   ],
   [
     "Fantasy Magazine",
     "https://psychopomp.com/fantasy-magazine-guidelines/",
-    "fantasy"
+    "fantasy, flash < 1500, shorts < 5k, $"
   ],
   [
     "Farthest Star Publishing",
@@ -320,7 +320,7 @@ SITES = [
   [
     "Interzone",
     "https://interzone.press/submissions/",
-    "sf, $$"
+    "sf, <17500, $$"
   ],
   [
     "Incensepunk",
@@ -350,7 +350,7 @@ SITES = [
   [
     "Lightspeed",
     "https://adamant.moksha.io/publication/lightspeed",
-    "sf, fantasy, $$$"
+    "sf, fantasy, 1500-10k, <5k pref, $$$"
   ],
   [
     "Manawaker Flash Fiction Podcast",
@@ -510,7 +510,7 @@ SITES = [
   [
     "Strange Horizons",
     "http://strangehorizons.com/submit/fiction-submission-guidelines/",
-    "sf, fantasy, $$$"
+    "sf, fantasy, <10k 5k pref, $$$"
   ],
   [
     "Tales from the Crosstimbers",
@@ -550,7 +550,7 @@ SITES = [
   [
     "Uncanny",
     "https://www.uncannymagazine.com/submissions/",
-    "sf"
+    "sf, 750-10000, $$"
   ],
   [
     "Untold Tales",
