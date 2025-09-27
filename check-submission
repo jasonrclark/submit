@@ -94,7 +94,7 @@ SITES = [
   [
     "Beneath Ceaseless Skies",
     "https://www.beneath-ceaseless-skies.com/submissions/",
-    "fantasy"
+    "fantasy, <15000, $$$"
   ],
   [
     "Bewildering Stories",
