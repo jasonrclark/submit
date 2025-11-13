@@ -194,7 +194,7 @@ SITES = [
   [
     "Diabolical Plots",
     "https://www.diabolicalplots.com/guidelines/",
-    "sf, fantasy"
+    "sf, fantasy, $$$"
   ],
   [
     "Ecological Citizen",
@@ -224,7 +224,7 @@ SITES = [
   [
     "Factor Four Magazine",
     "https://factorfourmag.com/submissionsinfo/",
-    "sf, fantasy, horror, flash, $$"
+    "sf, fantasy, horror, <1000, flash, $$$"
   ],
   [
     "Fantasy & Science Fiction",
@@ -265,7 +265,7 @@ SITES = [
   [
     "Fusion Fragment",
     "https://www.fusionfragment.com/submissions/",
-    "sf, $"
+    "sf, $$"
   ],
   [
     "The Future Fire",
@@ -385,7 +385,7 @@ SITES = [
   [
     "Neon Dystopia",
     "https://www.neondystopia.com/?p=100042814",
-    "sf, cyberpunk"
+    "sf, cyberpunk, $"
   ],
   [
     "New Maps",
@@ -490,7 +490,7 @@ SITES = [
   [
     "Small Wonders",
     "https://smallwondersmag.com/submissions/",
-    "flash"
+    "flash, <1000, $$$"
   ],
   [
     "StarShipSofa",
