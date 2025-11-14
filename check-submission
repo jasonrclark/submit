@@ -44,7 +44,7 @@ SITES = [
   [
     "Andromeda Spaceways",
     "https://andromedaspaceways.com/submissions-manager/",
-    "sf, fantasy, horror"
+    "sf, fantasy, horror, $"
   ],
   [
     "AntipodeanSF",
@@ -74,7 +74,7 @@ SITES = [
   [
     "Augur",
     "https://augursociety.org/submissions/",
-    "sf, fantasy"
+    "sf, fantasy, $$$"
   ],
   [
     "Baffling Magazine",
@@ -89,7 +89,7 @@ SITES = [
   [
     "Aurealis",
     "https://aurealis.com.au/submissions/",
-    "sf, australian"
+    "sf, australian, $$"
   ],
   [
     "Beneath Ceaseless Skies",
@@ -275,7 +275,7 @@ SITES = [
   [
     "Galaxy's Edge",
     "https://www.galaxysedge.com/submissions/",
-    "sf"
+    "sf, $$$"
   ],
   [
     "The Genre Society",
