@@ -528,7 +528,7 @@ SITES = [
   [
     "Trembling with Fear",
     "https://horrortree.com/submissions/",
-    "horror, $"
+    "horror, €, 403 on Actions"
   ],
   [
     "Uncanny",
