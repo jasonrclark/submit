@@ -22,7 +22,7 @@ SITES = [
   [
     "Analog",
     "https://analogsf.com/contact-us/writers-guidelines/",
-    "sf, ugh"
+    "sf, ugh, €€€"
   ],
   [
     "Andromeda Spaceways",
@@ -32,12 +32,12 @@ SITES = [
   [
     "AntipodeanSF",
     "https://www.antisf.com.au/submission-guidelines",
-    "flash, sf, fantasy, australian, twists, <1000"
+    "flash, sf, fantasy, australian, twists, <1000, ¢"
   ],
   [
     "Apex Magazine",
     "https://www.apexbookcompany.com/a/blog/apex-magazine/post/apex-magazine-submissions-guidelines",
-    "flash 💚?, sf, fantasy, horror"
+    "flash 💚?, sf, fantasy, horror, $$$"
   ],
   [
     "Arcturus",
@@ -47,7 +47,7 @@ SITES = [
   [
     "Asimov's",
     "https://asimovs.com/contact-us/writers-guidelines/",
-    "sf, 1000-20k, ugh"
+    "sf, 1000-20k, ugh, €€€"
   ],
   [
     "Asimov Press",
@@ -67,7 +67,7 @@ SITES = [
   [
     "Tales & Feathers",
     "https://augursociety.org/submissions/",
-    "fantasy, cozy"
+    "fantasy, cozy, $$$"
   ],
   [
     "Aurealis",
@@ -172,7 +172,7 @@ SITES = [
   [
     "Daily Science Fiction",
     "https://dailysciencefiction.com/",
-    "flash"
+    "flash, €?"
   ],
   [
     "Diabolical Plots",
@@ -197,7 +197,7 @@ SITES = [
   [
     "Every Day Fiction",
     "https://everydayfiction.com/submit-story/",
-    "flash"
+    "flash, $"
   ],
   [
     "F(r)iction",
@@ -212,7 +212,7 @@ SITES = [
   [
     "Fantasy & Science Fiction",
     "https://www.fandsf.com/glines.htm",
-    "sf, fantasy, <25k, ugh"
+    "sf, fantasy, <25k, ugh, €€€"
   ],
   [
     "Fantasy Magazine",
@@ -398,7 +398,7 @@ SITES = [
   [
     "Penumbric",
     "https://www.penumbric.com/subs.html",
-    "sf, fantasy, horror, edgy"
+    "sf, fantasy, horror, edgy, $"
   ],
   [
     "Phano",
@@ -428,7 +428,7 @@ SITES = [
   [
     "Psychopomp Novellas",
     "https://psychopomp.com/novella-guidelines/",
-    "novellas"
+    "novellas, €"
   ],
   [
     "Razzle Dazzle Cafe",
@@ -463,7 +463,7 @@ SITES = [
   [
     "Shoreline of Infinity",
     "https://www.shorelineofinfinity.com/submissions/",
-    "sf"
+    "sf, $$"
   ],
   [
     "Slipjack Review",
@@ -513,7 +513,7 @@ SITES = [
   [
     "The Deadlands",
     "https://psychopomp.com/the-deadlands-guidelines/",
-    "sf, fantasy, horror, anthology"
+    "sf, fantasy, horror, anthology, €"
   ],
   [
     "Three-Lobed Burning Eye",
@@ -528,7 +528,7 @@ SITES = [
   [
     "Trembling with Fear",
     "https://horrortree.com/submissions/",
-    "horror"
+    "horror, $"
   ],
   [
     "Uncanny",
@@ -548,7 +548,7 @@ SITES = [
   [
     "Weird Tales",
     "https://www.weirdtales.com/submissions",
-    "sf"
+    "sf, €"
   ],
   [
     "White Cat Publications",
@@ -558,17 +558,17 @@ SITES = [
   [
     "Worlds of If",
     "https://worldsofifmagazine.com/submissions",
-    "sf"
+    "sf, €"
   ],
   [
     "Worlds of Possibility",
     "https://worldsofpossibility.moksha.io/closed",
-    "sf, fantasy"
+    "sf, fantasy, €"
   ],
   [
     "swamp pink",
     "https://swamp-pink.charleston.edu/submit/",
-    "sf"
+    "sf, $$"
   ],
 ]
 
