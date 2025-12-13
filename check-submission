@@ -112,6 +112,8 @@ def evaluate_site(results, title, page, tags)
 rescue => e
   STDERR.print "!"
   results << [title, page, "ERROR", e.message, tags]
+ensure
+  STDERR.flush
 end
 
 def output_results(results)
