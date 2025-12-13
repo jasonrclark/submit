@@ -7,7 +7,7 @@ SITES = [
   [
     "After the Storm",
     "https://medium.com/after-the-storm/submission-guide-for-after-the-storm-472ac07eb0e7",
-    "sf, fantasy, anti-capitalist, 1000-5000, $"
+    "sf, fantasy, anti-capitalist, 1000-5000, €, medium 403"
   ],
   [
     "Allegory",
@@ -20,14 +20,9 @@ SITES = [
     "sf, fantasy, ¢"
   ],
   [
-    "Another Realm",
-    "https://anotherealm.com/faq/submit.php",
-    "sf, fantasy, horror, <5000, $"
-  ],
-  [
     "Analog",
     "https://analogsf.com/contact-us/writers-guidelines/",
-    "sf, $$$"
+    "sf, ugh"
   ],
   [
     "Andromeda Spaceways",
@@ -52,7 +47,7 @@ SITES = [
   [
     "Asimov's",
     "https://asimovs.com/contact-us/writers-guidelines/",
-    "sf, 1000-20k, $$$"
+    "sf, 1000-20k, ugh"
   ],
   [
     "Asimov Press",
@@ -216,8 +211,8 @@ SITES = [
   ],
   [
     "Fantasy & Science Fiction",
-    "https://www.sfsite.com/fsf/glines.htm",
-    "sf, fantasy, <25k, $$$"
+    "https://www.fandsf.com/glines.htm",
+    "sf, fantasy, <25k, ugh"
   ],
   [
     "Fantasy Magazine",
@@ -502,7 +497,7 @@ SITES = [
   ],
   [
     "Tales from the Crosstimbers",
-    "https://thecrosstimbers.online/open-call/",
+    "https://thecrosstimbers.net/author-guidelines/",
     "sf, 1000-2500, $"
   ],
   [
@@ -538,7 +533,7 @@ SITES = [
   [
     "Uncanny",
     "https://www.uncannymagazine.com/submissions/",
-    "sf, 750-10000, $$"
+    "sf, 750-10000, €€, 403 on Actions"
   ],
   [
     "Untold Tales",

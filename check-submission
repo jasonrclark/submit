@@ -38,6 +38,7 @@ def extract_main_text(html, max_length = 16_000)
     main_node = candidates.max_by { |c| c.css('p').size }
   end
   main_node ||= doc.at('body') # fallback
+  main_node ||= doc
 
   # Remove navigation, header, footer, aside and scripts/styles
   main_node.search('header, nav, footer, aside, script, style, noscript').remove
@@ -155,7 +156,7 @@ if ARGV.empty?
   output_results(results)
 
   puts ""
-  puts "## Non-Paying for Later"
+  puts "## Maybe Later"
   puts "|Site|Tag Along!|"
   puts "|---|---|"
   nonpaying_sites.each do |(title, page, tags)|
