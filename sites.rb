@@ -20,11 +20,6 @@ SITES = [
     "sf, fantasy, ¢"
   ],
   [
-    "Altitude Press",
-    "https://altitude-press.com/submission-guidelines/",
-    "sf, <2000, $"
-  ],
-  [
     "Another Realm",
     "https://anotherealm.com/faq/submit.php",
     "sf, fantasy, horror, <5000, $"
