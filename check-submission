@@ -8,7 +8,7 @@ require 'json'
 require_relative './sites'
 
 GITHUB_TOKEN = ENV['GITHUB_TOKEN']
-MODEL = "openai/gpt-5"
+MODEL = "openai/gpt-4.1"
 
 abort "Missing GITHUB_TOKEN." unless GITHUB_TOKEN && !GITHUB_TOKEN.empty?
 
@@ -102,6 +102,10 @@ def evaluate_site(results, title, page, tags)
   response = ask_github_models(prompt, GITHUB_TOKEN, MODEL)
 
   answer, reason = response.split("\n").reject { |line| line.nil? || line.empty? }
+  if answer.nil? || answer.empty?
+    answer = "ERROR"
+    reason = "No response from model?"
+  end
 
   results << [title, page, answer, reason, tags]
 rescue => e

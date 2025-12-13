@@ -12,7 +12,7 @@ SITES = [
   [
     "Allegory",
     "https://www.allegoryezine.com/submissions",
-    "sf, fantasy, horror, <5000, Nov 2025, $"
+    "sf, fantasy, horror, <5000, $"
   ],
   [
     "Altered Reality",
