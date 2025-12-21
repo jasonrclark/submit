@@ -1,0 +1,22 @@
+#! /usr/bin/env ruby
+
+require 'pp'
+require_relative './sites'
+
+if ARGV.length != 3
+  puts "usage: ./add-site NAME URL 'TAGS'"
+  exit 1
+end
+
+name, url, tags = ARGV
+
+tags = tags
+  .gsub('cent', '¢')
+  .gsub('euro', '€')
+
+SITES << [name, url, tags]
+SITES.sort_by! do |name, *_|
+  name.downcase
+end
+
+File.write('sites.rb', "SITES = #{SITES.pretty_inspect}")
