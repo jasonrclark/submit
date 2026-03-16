@@ -131,7 +131,7 @@ def output_rows(rows, icon)
   rows
     .sort_by {|(title, page, *_)| title }
     .each do |(title, page, _, reason, tags)|
-      puts "|[#{title}](#{page})|#{icon}|#{tags}|<details>#{reason}</details>|"
+      puts "|[#{title}](#{page})|#{icon}|#{tags}|"
     end
 end
 
@@ -152,8 +152,8 @@ if ARGV.empty?
   puts
   puts "Just a few magazines I'm watching for open submission season"
   puts
-  puts "|Site|Open?|Tag Along!|Why???|"
-  puts "|---|---|---|---|"
+  puts "|Site|Open?|Tag Along!|"
+  puts "|---|---|---|"
 
   output_results(results)
 
