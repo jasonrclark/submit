@@ -25,10 +25,14 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.TOKEN }}
 
       - run: |
-          git config --global user.name 'Jason R. Clark'
-          git config --global user.email 'jason@jasonrclark.net'
-          git add README.md
-          git commit -m "Updated submissions"
-          git push origin main
+          if ! git diff --quiet; then
+            git config --global user.name 'Jason R. Clark'
+            git config --global user.email 'jason@jasonrclark.net'
+            git add README.md
+            git commit -m "Updated submissions"
+            git push origin main
+          else
+            echo "No changes, carry on"
+          fi
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
