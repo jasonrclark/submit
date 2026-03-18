@@ -18,7 +18,6 @@ Just a few magazines I'm watching for open submission season
 |[Flash Point Science Fiction](https://flashpointsf.com/submissions/)|💚|sf, fantasy, <1000, $|
 |[Fusion Fragment](https://www.fusionfragment.com/submissions/)|💚|sf, $$|
 |[Harvey Duckman](https://harvey-duckman-is-alive.ghost.io/submissions/)|💚|sf, fantasy, $|
-|[Haven Speculative](https://www.havenspec.com/submit/)|💚|sf, fantasy, <6000, $$|
 |[Hyphen Punk](https://hyphenpunk.com/submissions/)|💚|punk, 1000-7500, $|
 |[Incensepunk](https://www.incensepunk.com/p/submissions)|💚|sf, religous, $$|
 |[Interzone](https://interzone.press/submissions/)|💚|sf, <17500, $$|
@@ -28,7 +27,6 @@ Just a few magazines I'm watching for open submission season
 |[Mystic Mind](https://kirincomicscontact.wixsite.com/my-site/about-1)|💚|sf, fantasy, <5000, $|
 |[Nature: Futures](https://www.nature.com/nature/for-authors/other-subs)|💚|sf, hard, 850-950, $$$|
 |[Neon Dystopia](https://www.neondystopia.com/?p=100042814)|💚|sf, cyberpunk, $|
-|[New Maps](https://www.new-maps.com/submissions/)|💚|sf, deindustrial, <10000, $|
 |[Not One of Us](https://legacyliteraryservices.com/not-one-of-us/)|💚|sf, alienation, $|
 |[Orion's Belt](https://www.orions-belt.net/submissions)|💚|sf, <1200, $|
 |[Phano](https://www.phano.co/submissions)|💚|sf, <5000, $|
@@ -43,11 +41,11 @@ Just a few magazines I'm watching for open submission season
 |[The Future Fire](https://futurefire.net/guidelines/fiction.html)|💚|sf, social, flash <1000, <17000, $|
 |[Trollbreath](https://magazine.trollbreath.com/submissions/)|💚|<7500, $$|
 |[Utopia Science Fiction](https://www.utopiasciencefiction.com/submit)|💚|sf, <4000, $$$|
+|[White Cat Publications](https://whitecatpublications.com/guidelines/)|💚|sf, <2500, $|
 |[Abyss & Apex](https://www.abyssapexzine.com/submissions/)|🛑|sf, <10k, $$|
 |[Allegory](https://www.allegoryezine.com/submissions)|🛑|sf, fantasy, horror, <5000, $|
 |[Andromeda Spaceways](https://andromedaspaceways.com/submissions-manager/)|🛑|sf, fantasy, horror, $|
 |[Apparition Lit](https://apparitionlit.com/submissions/)|🛑|flash, $$, <5000|
-|[Asimov Press](https://press.asimov.com/about)|🛑|sf, science focus, $$$|
 |[Augur](https://augursociety.org/submissions/)|🛑|sf, fantasy, $$$|
 |[Aurealis](https://aurealis.com.au/submissions/)|🛑|sf, australian, $$|
 |[BFS Horizons](https://britishfantasysociety.org/get-in-touch/bfs-horizons/)|🛑|fantasy, horror, <5000, $|
@@ -55,14 +53,16 @@ Just a few magazines I'm watching for open submission season
 |[Carnage House](https://carnagehouse.com/submission/subs.php)|🛑|horror, 500-5500, $|
 |[Cosmic Horror Monthly](https://cosmichorrormonthly.com/submissions/)|🛑|$, horror, cosmic, 1/1-7, 7/1-7|
 |[Diabolical Plots](https://www.diabolicalplots.com/guidelines/)|🛑|sf, fantasy, $$$|
+|[Factor Four Magazine](https://factorfourmag.com/submissionsinfo/)|🛑|sf, fantasy, horror, <1000, flash, $$$|
 |[Galaxy's Edge](https://www.galaxysedge.com/submissions/)|🛑|sf, $$$|
 |[Gavagai](https://gavagai.com/submit/quick)|🛑|spec, ~2k, $$$, login req.|
 |[GigaNotoSaurus](https://giganotosaurus.org/submission-guidelines/)|🛑|$$$, 5000-25k|
+|[Haven Speculative](https://www.havenspec.com/submit/)|🛑|sf, fantasy, <6000, $$|
 |[Hawthorn & Ash](https://ironfaeriepublishing.com/hawthorn-ash/)|🛑|fantasy, horror, flash <1000, $|
-|[Intrepidus Ink](https://intrepidusink.com/submissions/)|🛑|sf, fantasy, flash <1000, <2500, $|
 |[Lightspeed](https://adamant.moksha.io/publication/lightspeed)|🛑|sf, fantasy, 1500-10k, <5k pref, $$$|
 |[Mythaxis](https://mythaxis.co.uk/submissions.html)|🛑|flash (500-2k), 2000-5000, $|
 |[New Edge Sword & Sorcery](https://newedgeswordandsorcery.com/submissions/)|🛑|s&s, 4000-6000, $$|
+|[New Maps](https://www.new-maps.com/submissions/)|🛑|sf, deindustrial, <10000, $|
 |[Nightmare](https://adamant.moksha.io/publication/nightmare/guidelines)|🛑|horror, $$$|
 |[Old Moon](https://www.oldmoonpublishing.com/submissions)|🛑|s&s, weird, 1000-10k, $$$|
 |[Penumbric](https://www.penumbric.com/subs.html)|🛑|sf, fantasy, horror, edgy, $|
