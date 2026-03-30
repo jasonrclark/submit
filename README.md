@@ -16,16 +16,15 @@ Just a few magazines I'm watching for open submission season
 |[Every Day Fiction](https://everydayfiction.com/submit-story/)|💚|flash, $|
 |[F(r)iction](https://frictionlit.org/about/submit/)|💚|flash, weird, $, fee|
 |[Flash Point Science Fiction](https://flashpointsf.com/submissions/)|💚|sf, fantasy, <1000, $|
-|[Fusion Fragment](https://www.fusionfragment.com/submissions/)|💚|sf, $$|
 |[Harvey Duckman](https://harvey-duckman-is-alive.ghost.io/submissions/)|💚|sf, fantasy, $|
 |[Haven Speculative](https://www.havenspec.com/submit/)|💚|sf, fantasy, <6000, $$|
 |[Hyphen Punk](https://hyphenpunk.com/submissions/)|💚|punk, 1000-7500, $|
 |[Incensepunk](https://www.incensepunk.com/p/submissions)|💚|sf, religous, $$|
 |[Interzone](https://interzone.press/submissions/)|💚|sf, <17500, $$|
 |[James Gunn's Ad Astra](https://www.adastrasf.com/submissions/short-fiction-submission-guidelines/)|💚|sf, fantasy, <7500, $|
+|[Lady Churchill’s Rosebud Wristlet](https://smallbeerpress.com/about/submission-guidelines/)|💚|sf, <40k, $$|
 |[Manawaker Flash Fiction Podcast](https://www.manawaker.com/ffp-submissions/)|💚|sf, flash <1000, $|
 |[Mystic Mind](https://kirincomicscontact.wixsite.com/my-site/about-1)|💚|sf, fantasy, <5000, $|
-|[Nature: Futures](https://www.nature.com/nature/for-authors/other-subs)|💚|sf, hard, 850-950, $$$|
 |[Neon Dystopia](https://www.neondystopia.com/?p=100042814)|💚|sf, cyberpunk, $|
 |[New Maps](https://www.new-maps.com/submissions/)|💚|sf, deindustrial, <10000, $|
 |[Not One of Us](https://legacyliteraryservices.com/not-one-of-us/)|💚|sf, alienation, $|
@@ -40,9 +39,7 @@ Just a few magazines I'm watching for open submission season
 |[Tall Tale TV](https://talltaletv.com/submission-guidelines/)|💚|sf, fantasy, <6000, $|
 |[The Colored Lens](https://thecoloredlens.com/?page_id=137752)|💚|sf, fantasy, 500-5000, $|
 |[The Dark](https://www.thedarkmagazine.com/submission-guidelines/)|💚|horror, dark fantasy, 2000-6000, $$|
-|[The Future Fire](https://futurefire.net/guidelines/fiction.html)|💚|sf, social, flash <1000, <17000, $|
 |[Trollbreath](https://magazine.trollbreath.com/submissions/)|💚|<7500, $$|
-|[Utopia Science Fiction](https://www.utopiasciencefiction.com/submit)|💚|sf, <4000, $$$|
 |[White Cat Publications](https://whitecatpublications.com/guidelines/)|💚|sf, <2500, $|
 |[Abyss & Apex](https://www.abyssapexzine.com/submissions/)|🛑|sf, <10k, $$|
 |[Allegory](https://www.allegoryezine.com/submissions)|🛑|sf, fantasy, horror, <5000, $|
@@ -62,8 +59,8 @@ Just a few magazines I'm watching for open submission season
 |[Galaxy's Edge](https://www.galaxysedge.com/submissions/)|🛑|sf, $$$|
 |[Gavagai](https://gavagai.com/submit/quick)|🛑|spec, ~2k, $$$, login req.|
 |[GigaNotoSaurus](https://giganotosaurus.org/submission-guidelines/)|🛑|$$$, 5000-25k|
+|[Hawthorn & Ash](https://ironfaeriepublishing.com/hawthorn-ash/)|🛑|fantasy, horror, flash <1000, $|
 |[Intrepidus Ink](https://intrepidusink.com/submissions/)|🛑|sf, fantasy, flash <1000, <2500, $|
-|[Lady Churchill’s Rosebud Wristlet](https://smallbeerpress.com/about/submission-guidelines/)|🛑|sf, <40k, $$|
 |[Lightspeed](https://adamant.moksha.io/publication/lightspeed)|🛑|sf, fantasy, 1500-10k, <5k pref, $$$|
 |[Mythaxis](https://mythaxis.co.uk/submissions.html)|🛑|flash (500-2k), 2000-5000, $|
 |[New Edge Sword & Sorcery](https://newedgeswordandsorcery.com/submissions/)|🛑|s&s, 4000-6000, $$|
@@ -72,12 +69,13 @@ Just a few magazines I'm watching for open submission season
 |[Penumbric](https://www.penumbric.com/subs.html)|🛑|sf, fantasy, horror, edgy, $|
 |[Propagule](https://www.propagule.co/#w-tabs-2-data-w-pane-2)|🛑|sf, <10000, $|
 |[Pseudopod](https://pseudopod.org/submissions/)|🛑|podcast, <6000, horror, $$$|
+|[Pulp Asylum](https://www.pulpasylum.com/guidelines.html)|🛑|sf, fantasy, <3000, $|
 |[Shoreline of Infinity](https://www.shorelineofinfinity.com/submissions/)|🛑|sf, $$|
 |[Solarpunk Magazine](https://solarpunkmagazine.com/submissions/)|🛑|solarpunk, 1500-7500, $$$|
-|[Strange Horizons](http://strangehorizons.com/submit/fiction-submission-guidelines/)|🛑|sf, fantasy, <10k 5k pref, $$$|
 |[Tales & Feathers](https://augursociety.org/submissions/)|🛑|fantasy, cozy, $$$|
 |[Third Flatiron](https://thirdflatiron.com/?page_id=13)|🛑|anthology, $$$, 1500-3000|
 |[Three-Lobed Burning Eye](https://www.3lobedmag.com/submissions.html)|🛑|sf, dark fantasy, horror, $$$|
+|[Timber Ghost](https://www.timberghostpress.com/submissions.html#/)|🛑|horror, flash <1000, $|
 |[Translunar Travelers Lounge](https://translunartravelerslounge.com/submissions/)|🛑|$, <5000, 3/15-4/15, 9/15-10/15|
 |[swamp pink](https://swamp-pink.charleston.edu/submit/)|🛑|sf, $$|
 |[Farthest Star Publishing](https://www.fartheststarpublishing.com/general-8)|💥|sf, fantasy, novelette, 8000-17000, $|
@@ -85,6 +83,7 @@ Just a few magazines I'm watching for open submission season
 |[Small Wonders](https://smallwondersmag.com/submissions/)|💥|flash, <1000, $$$|
 |[StarShipSofa](http://www.starshipsofa.com/submissions/)|💥|sf, 3000-7000, $|
 |[The Fabulist](https://fabulistmagazine.com/short-fiction-guidelines/)|💥|sf, fantasy, $$|
+|[The Future Fire](https://futurefire.net/guidelines/fiction.html)|💥|sf, social, flash <1000, <17000, $|
 
 ## Maybe Later
 |Site|Tag Along!|
