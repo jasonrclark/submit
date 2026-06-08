@@ -30,7 +30,6 @@ Just a few magazines I'm watching for open submission season
 |[Reckoning](https://reckoning.press/submit/fiction/)|💚|sf, environmental, <15000, $$$|
 |[Seize the Press](https://www.seizethepress.com/submissions/)|💚|sf, anticapitalist, $|
 |[Small Wonders](https://smallwondersmag.com/submissions/)|💚|flash, <1000, $$$|
-|[Solarpunk Magazine](https://solarpunkmagazine.com/submissions/)|💚|solarpunk, 1500-7500, $$$|
 |[Story Unlikely](https://www.storyunlikely.com/)|💚|sf, <7500, $$$, subscribe|
 |[Tales from the Crosstimbers](https://thecrosstimbers.net/author-guidelines/)|💚|sf, 1000-2500, $|
 |[Tall Tale TV](https://talltaletv.com/submission-guidelines/)|💚|sf, fantasy, <6000, $|
@@ -51,11 +50,13 @@ Just a few magazines I'm watching for open submission season
 |[BFS Horizons](https://britishfantasysociety.org/get-in-touch/bfs-horizons/)|🛑|fantasy, horror, <5000, $|
 |[Baffling Magazine](https://www.bafflingmag.com/submissions)|🛑|sf, fantasy, <1200, queer, $$$|
 |[Black Hare Press](https://blackharepress.com/blogs/open-calls)|🛑|sf, fantasy, dark, <2000, $|
+|[Carnage House](https://carnagehouse.com/submission/subs.php)|🛑|horror, 500-5500, $|
 |[Cosmic Horror Monthly](https://cosmichorrormonthly.com/submissions/)|🛑|$, horror, cosmic, 1/1-7, 7/1-7|
 |[Diabolical Plots](https://www.diabolicalplots.com/guidelines/)|🛑|sf, fantasy, $$$|
 |[DreamForge](https://dreamforgemagazine.com/for-authors/call-for-submissions/)|🛑|$$$, <7000|
 |[Factor Four Magazine](https://factorfourmag.com/submissionsinfo/)|🛑|sf, fantasy, horror, <1000, flash, $$$|
 |[Fantasy Magazine](https://psychopomp.com/fantasy-magazine-guidelines/)|🛑|fantasy, flash < 1500, shorts < 5k, $|
+|[Fusion Fragment](https://www.fusionfragment.com/submissions/)|🛑|sf, $$|
 |[Galaxy's Edge](https://www.galaxysedge.com/submissions/)|🛑|sf, $$$|
 |[Gavagai](https://gavagai.com/submit/quick)|🛑|spec, ~2k, $$$, login req.|
 |[GigaNotoSaurus](https://giganotosaurus.org/submission-guidelines/)|🛑|$$$, 5000-25k|
@@ -65,20 +66,22 @@ Just a few magazines I'm watching for open submission season
 |[Mystic Mind](https://kirincomicscontact.wixsite.com/my-site/about-1)|🛑|sf, fantasy, <5000, $|
 |[Mythaxis](https://mythaxis.co.uk/submissions.html)|🛑|flash (500-2k), 2000-5000, $|
 |[New Edge Sword & Sorcery](https://newedgeswordandsorcery.com/submissions/)|🛑|s&s, 4000-6000, $$|
+|[Nightmare](https://adamant.moksha.io/publication/nightmare/guidelines)|🛑|horror, $$$|
 |[Old Moon](https://www.oldmoonpublishing.com/submissions)|🛑|s&s, weird, 1000-10k, $$$|
 |[Penumbric](https://www.penumbric.com/subs.html)|🛑|sf, fantasy, horror, edgy, $|
-|[PodCastle](https://podcastle.org/guidelines/)|🛑|podcast, <6000, fantasy, $$$|
 |[Propagule](https://www.propagule.co/#w-tabs-2-data-w-pane-2)|🛑|sf, <10000, $|
 |[Pseudopod](https://pseudopod.org/submissions/)|🛑|podcast, <6000, horror, $$$|
 |[Pulp Asylum](https://www.pulpasylum.com/guidelines.html)|🛑|sf, fantasy, <3000, $|
 |[Shoreline of Infinity](https://www.shorelineofinfinity.com/submissions/)|🛑|sf, $$|
+|[Solarpunk Magazine](https://solarpunkmagazine.com/submissions/)|🛑|solarpunk, 1500-7500, $$$|
+|[Strange Horizons](http://strangehorizons.com/submit/fiction-submission-guidelines/)|🛑|sf, fantasy, <10k 5k pref, $$$|
 |[Tales & Feathers](https://augursociety.org/submissions/)|🛑|fantasy, cozy, $$$|
 |[Third Flatiron](https://thirdflatiron.com/?page_id=13)|🛑|anthology, $$$, 1500-3000|
 |[Three-Lobed Burning Eye](https://www.3lobedmag.com/submissions.html)|🛑|sf, dark fantasy, horror, $$$|
+|[Timber Ghost](https://www.timberghostpress.com/submissions.html#/)|🛑|horror, flash <1000, $|
 |[Translunar Travelers Lounge](https://translunartravelerslounge.com/submissions/)|🛑|$, <5000, 3/15-4/15, 9/15-10/15|
 |[swamp pink](https://swamp-pink.charleston.edu/submit/)|🛑|sf, $$|
 |[Beneath Ceaseless Skies](https://www.beneath-ceaseless-skies.com/submissions/)|💥|fantasy, <15000, $$$|
-|[Carnage House](https://carnagehouse.com/submission/subs.php)|💥|horror, 500-5500, $|
 |[F(r)iction](https://frictionlit.org/about/submit/)|💥|flash, weird, $, fee|
 |[Farthest Star Publishing](https://www.fartheststarpublishing.com/general-8)|💥|sf, fantasy, novelette, 8000-17000, $|
 |[Howdy Dude Paperbacks](https://howdydudepaperbacks.com/submissions/)|💥|sf, 2000-8000, $|
