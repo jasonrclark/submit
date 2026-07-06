@@ -4,11 +4,11 @@ Just a few magazines I'm watching for open submission season
 
 |Site|Open?|Tag Along!|
 |---|---|---|
-|[Aurealis](https://aurealis.com.au/submissions/)|💚|sf, australian, $$|
 |[Beneath Ceaseless Skies](https://www.beneath-ceaseless-skies.com/submissions/)|💚|fantasy, <15000, $$$|
 |[Black Cat Weekly](https://wildside.moksha.io/publication/black-cat-weekly-science-fiction/guidelines)|💚|sf, fantasy, $|
 |[Bourbon Penn](https://www.bourbonpenn.com/submissions)|💚|odd, surreal, $$|
 |[Clarkesworld](https://clarkesworldmagazine.com/submissions/)|💚|sf, fantasy, 1000-22000, $$$|
+|[Cosmic Horror Monthly](https://cosmichorrormonthly.com/submissions/)|💚|$, horror, cosmic, 1/1-7, 7/1-7|
 |[Electric Spec](https://www.electricspec.com/Submissions.html)|💚|sf, fantasy, horror, <7000, $|
 |[Every Day Fiction](https://everydayfiction.com/submit-story/)|💚|flash, $|
 |[Flash Point Science Fiction](https://flashpointsf.com/submissions/)|💚|sf, fantasy, <1000, $|
@@ -35,21 +35,21 @@ Just a few magazines I'm watching for open submission season
 |[Tall Tale TV](https://talltaletv.com/submission-guidelines/)|💚|sf, fantasy, <6000, $|
 |[The Colored Lens](https://thecoloredlens.com/?page_id=137752)|💚|sf, fantasy, 500-5000, $|
 |[The Dark](https://www.thedarkmagazine.com/submission-guidelines/)|💚|horror, dark fantasy, 2000-6000, $$|
+|[The Future Fire](https://futurefire.net/guidelines/fiction.html)|💚|sf, social, flash <1000, <17000, $|
 |[Trollbreath](https://magazine.trollbreath.com/submissions/)|💚|<7500, $$|
 |[Utopia Science Fiction](https://www.utopiasciencefiction.com/submit)|💚|sf, <4000, $$$|
 |[White Cat Publications](https://whitecatpublications.com/guidelines/)|💚|sf, <2500, $|
 |[Abyss & Apex](https://www.abyssapexzine.com/submissions/)|🛑|sf, <10k, $$|
-|[Adventitious](https://www.adventitious.net/submission-guidelines/)|🛑|sf, fantasy, flash <1k, <17k, $$$|
 |[Allegory](https://www.allegoryezine.com/submissions)|🛑|sf, fantasy, horror, <5000, $|
 |[Andromeda Spaceways](https://andromedaspaceways.com/submissions-manager/)|🛑|sf, fantasy, horror, $|
 |[Apparition Lit](https://apparitionlit.com/submissions/)|🛑|flash, $$, <5000|
 |[Asimov Press](https://press.asimov.com/about)|🛑|sf, science focus, $$$|
 |[Augur](https://augursociety.org/submissions/)|🛑|sf, fantasy, $$$|
+|[Aurealis](https://aurealis.com.au/submissions/)|🛑|sf, australian, $$|
 |[BFS Horizons](https://britishfantasysociety.org/get-in-touch/bfs-horizons/)|🛑|fantasy, horror, <5000, $|
 |[Baffling Magazine](https://www.bafflingmag.com/submissions)|🛑|sf, fantasy, <1200, queer, $$$|
 |[Black Hare Press](https://blackharepress.com/blogs/open-calls)|🛑|sf, fantasy, dark, <2000, $|
 |[Carnage House](https://carnagehouse.com/submission/subs.php)|🛑|horror, 500-5500, $|
-|[Cosmic Horror Monthly](https://cosmichorrormonthly.com/submissions/)|🛑|$, horror, cosmic, 1/1-7, 7/1-7|
 |[Diabolical Plots](https://www.diabolicalplots.com/guidelines/)|🛑|sf, fantasy, $$$|
 |[DreamForge](https://dreamforgemagazine.com/for-authors/call-for-submissions/)|🛑|$$$, <7000|
 |[Escape Pod](https://escapepod.org/guidelines/short-fiction/)|🛑|podcast, <6000, sf, $$$|
@@ -77,7 +77,7 @@ Just a few magazines I'm watching for open submission season
 |[Tales & Feathers](https://augursociety.org/submissions/)|🛑|fantasy, cozy, $$$|
 |[Tales from the Crosstimbers](https://thecrosstimbers.net/author-guidelines/)|🛑|sf, 1000-2500, $|
 |[Third Flatiron](https://thirdflatiron.com/?page_id=13)|🛑|anthology, $$$, 1500-3000|
-|[Timber Ghost](https://www.timberghostpress.com/submissions.html#/)|🛑|horror, flash <1000, $|
+|[Three-Lobed Burning Eye](https://www.3lobedmag.com/submissions.html)|🛑|sf, dark fantasy, horror, $$$|
 |[Translunar Travelers Lounge](https://translunartravelerslounge.com/submissions/)|🛑|$, <5000, 3/15-4/15, 9/15-10/15|
 |[swamp pink](https://swamp-pink.charleston.edu/submit/)|🛑|sf, $$|
 |[Apex Magazine](https://www.apexbookcompany.com/a/blog/apex-magazine/post/apex-magazine-submissions-guidelines)|💥|flash 💚?, sf, fantasy, horror, $$$|
@@ -86,7 +86,6 @@ Just a few magazines I'm watching for open submission season
 |[Howdy Dude Paperbacks](https://howdydudepaperbacks.com/submissions/)|💥|sf, 2000-8000, $|
 |[StarShipSofa](http://www.starshipsofa.com/submissions/)|💥|sf, 3000-7000, $|
 |[The Fabulist](https://fabulistmagazine.com/short-fiction-guidelines/)|💥|sf, fantasy, $$|
-|[The Future Fire](https://futurefire.net/guidelines/fiction.html)|💥|sf, social, flash <1000, <17000, $|
 
 ## Maybe Later
 |Site|Tag Along!|
